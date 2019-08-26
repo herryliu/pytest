@@ -19,3 +19,9 @@ def test_BookList(books_data):
         theBook = book.Book(title, author)
         assert theBook.getTitle() == title
         assert theBook.getAuthor() == author
+
+
+def test_Book():
+    myBook = book.Book('book 1', 'author 1')
+    assert myBook.getTitle() == 'book 1'
+    assert myBook.getAuthor() == 'authro 1'
