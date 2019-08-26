@@ -24,4 +24,4 @@ def test_BookList(books_data):
 def test_Book():
     myBook = book.Book('book 1', 'author 1')
     assert myBook.getTitle() == 'book 1'
-    assert myBook.getAuthor() == 'authro 1'
+    assert myBook.getAuthor() == 'author 1'
